@@ -1,0 +1,44 @@
+.flat-table {
+    display: block;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 115%;
+    overflow: auto;
+    width: auto;
+}
+
+th {
+    background-color: rgb(27, 82, 107);
+    color: white;
+    font-weight: normal;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+td {
+    background-color: rgb(238, 238, 238);
+    color: rgb(111, 111, 111);
+    padding: 20px 30px;
+}
+
+tr:hover td {
+    background-color: rgb(88, 118, 132);
+    color: rgb(255, 255, 255);
+    padding: 20px 30px;
+}
+
+.center {
+    margin: auto;
+    width: 71%;
+    padding: 10px;
+}
+
+h2 {
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(111, 111, 111);
+}
+
+.centered_text {
+    text-align: center;
+}
